@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jaxws="http://cxf.apache.org/jaxws" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd http://cxf.apache.org/jaxws http://cxf.apache.org/schema/jaxws.xsd">
-    <bean id="client" class="demo.spring.service.HelloWorld" factory-bean="clientFactory" factory-method="create"/>
-    <bean id="clientFactory" class="org.apache.cxf.jaxws.JaxWsProxyFactoryBean">
-        <property name="serviceClass" value="ms.springex.server.service.HelloWorld"/>
-        <property name="address" value="http://localhost:8080/services/HelloWorld"/>
-    </bean>
-</beans> -->
