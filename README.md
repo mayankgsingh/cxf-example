@@ -40,8 +40,11 @@ After successfull deployment of app, use below steps to perform operations.
 2. Push Numbers API
      - HTTP Method:GET
      - URL: http://<IP>:<port>/cxf-example/services/rest/gcd/numbers 
+
 ### SOAP Interface
-Refer to ```ClientConfig.java```. Update Host:port in line 28 if needed. And launch it as a Java Application for checks to commence.
+GCD Service WSDL USRL: http://<host>:<port>/cxf-example/services/gcdservice?wsdl
+For quick testing, refer to ```ClientConfig.java```. Update Host:port in line 28 if needed. And launch it as a Java Application for checks to commence.
+
 ## TODO
 1. jUnit test cases
 2. Remove ```ClientConfig.java```
