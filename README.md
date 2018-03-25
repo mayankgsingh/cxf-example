@@ -14,7 +14,6 @@
       - which returns a list of all the computed greatest common divisors from a database. 
      - public int gcdSum();
        - which returns the sum of all computed greatest common divisors from a database.
-      - The application needs to support access by up to 20 concurrent users and the code be of production quality. It needs to be deployable to a JBoss (or similar) application server as an enterprise archive [EAR] and be tolerant of server outage.
 
   - Greatest Common Divisor (GCD) of two whole numbers is the largest whole number that's a divisor (factor) of both of them. For instance, the largest number that divides into both 20 and 16 is 4.
 
